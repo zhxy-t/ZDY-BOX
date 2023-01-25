@@ -66,7 +66,7 @@ sed -i 's/SurfaceView/Surface/g' $CURRENT_DIR/$DIR/app/src/main/java/com/github/
 sed -i 's/color_6A6A6A_95/color_FFFFFF/g' $CURRENT_DIR/$DIR/app/src/main/res/drawable/shape_dialog_bg_main.xml
 
 //按键文字颜色
-sed -i 's/color_FFFFFF/color_000000_60/g' $CURRENT_DIR/$DIR/app/src/main/res/layout/dialog_subtitle.xml
+#sed -i 's/color_FFFFFF/color_000000_60/g' $CURRENT_DIR/$DIR/app/src/main/res/layout/dialog_subtitle.xml
 #sed -i 's/vs_10/vs_0/g' $CURRENT_DIR/$DIR/app/src/main/res/drawable/shape_dialog_filter_bg.xml
 # 默认设置
 cp $CURRENT_DIR/DIY2/T/App.java $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/base/App.java
