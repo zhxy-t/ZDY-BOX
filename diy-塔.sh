@@ -43,12 +43,12 @@ sed -i 's/TVBox/影视One/g' $CURRENT_DIR/$DIR/app/src/main/res/values-zh/string
 sed -i 's/TVBox/影视One/g' $CURRENT_DIR/$DIR/app/src/main/res/values/strings.xml
 
 //增加参数
-cp $CURRENT_DIR/DIY2/J/dimens.xml         $CURRENT_DIR/$DIR/app/src/main/res/values/dimens.xml
-cp $CURRENT_DIR/DIY2/J/colors.xml         $CURRENT_DIR/$DIR/app/src/main/res/values/colors.xml
-cp $CURRENT_DIR/DIY2/J/strings.xml        $CURRENT_DIR/$DIR/app/src/main/res/values/strings.xml
+cp $CURRENT_DIR/DIY2/dimens.xml         $CURRENT_DIR/$DIR/app/src/main/res/values/dimens.xml
+cp $CURRENT_DIR/DIY2/colors.xml         $CURRENT_DIR/$DIR/app/src/main/res/values/colors.xml
+cp $CURRENT_DIR/DIY2/strings.xml        $CURRENT_DIR/$DIR/app/src/main/res/values/strings.xml
 
 #图标修改
-mv $CURRENT_DIR/DIY2/图标3.png $CURRENT_DIR/$DIR/app/src/main/res/drawable/app_icon.png
+mv $CURRENT_DIR/DIY2/图标4.png $CURRENT_DIR/$DIR/app/src/main/res/drawable/app_icon.png
 
 #背景修改
 mv $CURRENT_DIR/DIY2/10.png $CURRENT_DIR/$DIR/app/src/main/res/drawable/app_bg.png
@@ -56,7 +56,7 @@ mv $CURRENT_DIR/DIY2/10.png $CURRENT_DIR/$DIR/app/src/main/res/drawable/app_bg.p
 cp $CURRENT_DIR/DIY2/epg_data.json $CURRENT_DIR/$DIR/app/src/main/assets/epg_data.json
 
 //播放文字修改
-cp $CURRENT_DIR/DIY/PlayerHelper.java $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/util/PlayerHelper.java
+#cp $CURRENT_DIR/DIY/PlayerHelper.java $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/util/PlayerHelper.java
 #sed -i 's/播放器//g' $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/util/PlayerHelper.java
 sed -i 's/TextureView/Texture/g' $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/util/PlayerHelper.java
 sed -i 's/SurfaceView/Surface/g' $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/util/PlayerHelper.java
